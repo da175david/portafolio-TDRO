@@ -1,0 +1,209 @@
+
+body {
+    background-image: url(/img/FILE14895.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*PAGE 1*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.nvar {
+    font-size: 15px;
+    color: #fdfdfd;
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    max-width: 80%;
+    margin-top: 10vh;
+}
+.inicio {
+    font-size: 28px;
+    color:#fdfdfd;
+    font-weight:600;
+}
+p {
+    padding-left: 5%;
+    font-size: 16px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+}
+.social {
+    display: inline-block;
+    justify-content: space-between;
+    font-size:12px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+}
+.btsocial {
+    align-items: center;
+    justify-items: center;
+}
+.arrowpng {
+    width: 12px;
+}
+.fotoperfil {
+    width: 220px;
+    display: flex;
+
+}
+.InfoInicio {
+    border-top: 2vh;
+    margin: 8%;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+h3 {
+    font-size:26px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    padding-left: 2%;
+}
+h4 {
+    font-size:18px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding-left: 2%;
+}
+/*PAGE 2*/
+h1 {
+    font-size:40px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.skills-ft {
+    display: flex;
+    margin: 10%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.img-skills {
+    width: 200px;
+}
+.descrip {
+    font-size: 16px;
+    color:#fdfdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*PAGE 3*/
+.hobbies-ft {
+    display: flex;
+    margin: 10%;
+    padding: 3%;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.img-hobbies {
+    display: inline-block;
+    width: 200px;
+}
+/*PAGE 4*/
+.formacion-ft {
+    display: flex;
+    margin: 10%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.img-formacion {
+    display: inline-block;
+    width: 200px;
+    padding-left: 10%;
+}
+/*PAGE 5*/
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.datacontact {
+    display: flexbox;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.inputs {
+    display: grid;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.contact-imput-1 {
+    display: flex;
+    margin-top: 2%;
+    padding-top: 20px;
+    text-align:start;
+    background-color: #ffffff91;
+}
+.contact-imput-2 {
+    display: flex;
+    margin-top: 2%;
+    padding-top: 100px;
+    text-align:start;
+    background-color: #ffffff91;
+}
+
+.enviar {
+    padding: 8px 20px;
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #0c4a6e;
+    font-size: 20px;
+    border-style: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.enviar:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+.enviar:active {
+    background: #116ea3;
+    top: 2px;
+  }
